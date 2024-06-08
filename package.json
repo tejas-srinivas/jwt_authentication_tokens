@@ -1,0 +1,36 @@
+{
+  "name": "jwt_authentication_tokens",
+  "version": "1.0.0",
+  "description": "This is a backend file of Food App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -L index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejas-srinivas/jwt_authentication_tokens.git"
+  },
+  "author": "Tejas",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/tejas-srinivas/jwt_authentication_tokens.git"
+  },
+  "homepage": "https://github.com/tejas-srinivas/jwt_authentication_tokens.git#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "ioredis": "^5.4.1",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
